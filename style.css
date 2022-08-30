@@ -1,0 +1,110 @@
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+     height:65px;
+     background-color: black;
+     color: white; 
+     list-style-type: none;
+}
+.brand img{
+   width: 44px; 
+   padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding:0 12px;
+}
+.container
+{
+    min-height: 75vh;
+    background-color: black;
+    color: rgb(254, 253, 254);
+    font-family: sans-serif;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    width: 70%;
+    padding:34px ;
+    background-image: url('sunset.jpg');
+    background-size: cover;
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons
+{
+    margin-top: 14px;
+} 
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitems{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitems img{
+    width: 43px;
+    margin:0 23px;
+    border-radius: 50px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songitemcontainer
+{
+    margin-top: 54px;
+   
+}
+.songinfo
+{
+    position: absolute;
+    left: 10vw;
+    font-family: sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+    padding-top: 42px;
+}
+ .songlistplay{
+    padding-left:80px;
+} 
+.songItemPlay{
+    padding-right: 50px;
+}
